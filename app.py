@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG)
 OPENWEATHER_API_KEY = '0695557b8df808d85e56f3b4f24c15f8'
 
 # Replace with your actual Google Maps API key
-GOOGLE_MAPS_API_KEY = ''
+GOOGLE_MAPS_API_KEY = 'AIzaSyA-OrjGouInNKbr14ey1Awp4zRwiVQ1t90'
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
 
 def get_weather(city_name):
