@@ -9,10 +9,10 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 # Replace with your actual OpenWeatherMap API key
-OPENWEATHER_API_KEY = '0695557b8df808d85e56f3b4f24c15f8'
+OPENWEATHER_API_KEY = ''
 
 # Replace with your actual Google Maps API key
-GOOGLE_MAPS_API_KEY = 'AIzaSyA-OrjGouInNKbr14ey1Awp4zRwiVQ1t90'
+GOOGLE_MAPS_API_KEY = ''
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
 
 def get_weather(city_name):
